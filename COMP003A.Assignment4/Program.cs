@@ -1,7 +1,7 @@
 ﻿/* 
  * Author: Steven Gonzalez
  * Course: COMP-003A
- * Purpose: Code for Lecture Activity 4
+ * Purpose: COMP003A.Assignment4
  * Reference: \
  */
 
