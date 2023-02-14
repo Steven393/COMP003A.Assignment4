@@ -71,27 +71,28 @@ namespace COMP003A.LectureActivity4
 
             while (counter2 <= 20) 
             {
-                if (counter2 % 2 == 0)
-                {
-                    Console.WriteLine("Foo");
-                    counter2++;
-                }
-                else if (counter2 % 5 == 0)
-                {
-                    Console.WriteLine("Bar");
-                    counter2++;
-                }
-                else if (counter2 % 2 == 0 && counter2 % 5 == 0) 
+                if (counter2 % 2 == 0 && counter2 % 5 == 0)
                 {
                     Console.WriteLine("FooBar");
-                    counter2++;
+                    
+                } 
+               else if (counter2 % 5 == 0)
+                {
+                    Console.WriteLine("Bar");
+                   
+                }
+               else if (counter2 % 2 == 0)
+                {
+                    Console.WriteLine("Foo");
+                    
                 }
                 else
                 {
                     Console.WriteLine(counter2);
-                    counter2++;
+                    
 
                 }
+                counter2++;
             }
 
         }
