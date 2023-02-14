@@ -76,12 +76,12 @@ namespace COMP003A.LectureActivity4
                     Console.WriteLine("Foo");
                     counter2++;
                 }
-                if (counter2 % 5 == 0)
+                else if (counter2 % 5 == 0)
                 {
                     Console.WriteLine("Bar");
                     counter2++;
                 }
-                if (counter2 % 2 == 0 && counter2 % 5 == 0) 
+                else if (counter2 % 2 == 0 && counter2 % 5 == 0) 
                 {
                     Console.WriteLine("FooBar");
                     counter2++;
